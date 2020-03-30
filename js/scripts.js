@@ -8,7 +8,12 @@ $(document).ready(function () {
 
         let thingsList = [faveThing, faveFood, faveShoes, faveSong, faveCat];
 
-        let userList = thingsList.slice()
+        let userList = thingsList.slice();
+        let shortList = userList.splice(0, 3);
+
+        let thingThree = shortList.pop();
+        let thingTwo = shortList.pop();
+        let thingOne = shortList.pop();
 
 
         //pull elements 2, 1 and 3 from var thingsList;
@@ -16,7 +21,10 @@ $(document).ready(function () {
 
 
 
-        $("#userList").empty().append(thingsList);
+        $("#userList").empty().append(shortList);
+        $("#thingOne").empty().append(thingOne);
+        $("#thingTwo").empty().append(thingTwo);
+        $("#thingThree").empty().append(thingThree);
 
         event.preventDefault();
     });
