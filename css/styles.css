@@ -1,0 +1,16 @@
+body {
+    background-color: beige;
+}
+
+form {
+    margin-top: 20px;;
+}
+
+img {
+    width: 400px;
+}
+
+.btn {
+    border: solid black 1px;
+    background-color: whitesmoke;
+}

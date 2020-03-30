@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Favorite Things</h1>
+        <p>Ever wanted a website to log your favorite things? Worry no longer!
+            With this site you can now do exactly that. Just fill out the fields and we'll make a list of your favorite
+            things!
+        </p>
+        <img src="img/happy.jpg">
+        <form id="user-info">
+            <div class="form-group">
+                <label for="thing">Enter thing</label>
+                <input id="thing" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="food">Enter food</label>
+                <input id="food" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="shoes">Enter shoes</label>
+                <input id="shoes" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="song">Enter song</label>
+                <input id="song" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="cat">Enter cat</label>
+                <input id="cat" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Submit Things</button>
+        </form>
+
+        <div id="results">
+            <ul>Here are a few of your favorite things:
+                <li><span id="#userList"></span></li>
+                <li><span id="thingTwo"></span></li>
+                <li><span id="thingOne"></span></li>
+                <li><span id="thingThree"></span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
